@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+    {% block content %}
+        {% for subcontractor in subcontractors %}
+            <h3>{{subcontractor}}</h3><hr>
+        {% endfor %}
+        
+        
+    {% endblock %}

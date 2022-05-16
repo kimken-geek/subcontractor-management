@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+    {% block content %}
+    <h1>Update Subcontractors</h1>
+    <form action='' method = "POST">
+        <p>Company <input type = "text" name = "company" value="{{contractor.company}}"/></p>
+        <p>Type <input type = "text" name = "age" value="{{contractor.type}}"/></p>
+        <p>Human Resources<input type = "text" name = "human_resources" value="{{contractor.human_resources}}"/></p>
+        <p>Technical Rating<input type = "integer" name = "technical_rating" value="{{contractor.technical_rating}}"/></p>
+        <p><input type = "submit" value = "Submit" /></p>
+    </form>   
+        
+        
+    {% endblock %}
+
+
+

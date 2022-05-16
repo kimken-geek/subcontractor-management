@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+    {% block content %}
+    <h1>Input all the current subcontractors</h1>
+    <form action='' method = "POST">
+        <p>Subcontractor ID <input type = "integer" name = "subcontractor_id" /></p>
+        <p>Company <input type = "text" name = "company" /></p>
+        <p>Type <input type = "text" name = "type" /></p>
+        <p>Human Resources<input type = "text" name = "human_resources" /></p>
+        <p>Technical Rating<input type = "integer" name = "technical_rating" /></p>
+        <p><input type = "submit" value = "Submit" /></p>
+    </form>   
+        
+        
+    {% endblock %}
+
+
+
